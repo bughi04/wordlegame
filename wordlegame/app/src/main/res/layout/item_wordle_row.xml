@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:id="@+id/tile_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Tile 1 -->
+        <FrameLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp">
+
+            <View
+                android:id="@+id/tile_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/tile_empty" />
+
+            <TextView
+                android:id="@+id/text_tile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=""
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+        </FrameLayout>
+
+        <!-- Tile 2 -->
+        <FrameLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp">
+
+            <View
+                android:id="@+id/tile_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/tile_empty" />
+
+            <TextView
+                android:id="@+id/text_tile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=""
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+        </FrameLayout>
+
+        <!-- Tile 3 -->
+        <FrameLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp">
+
+            <View
+                android:id="@+id/tile_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/tile_empty" />
+
+            <TextView
+                android:id="@+id/text_tile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=""
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+        </FrameLayout>
+
+        <!-- Tile 4 -->
+        <FrameLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp">
+
+            <View
+                android:id="@+id/tile_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/tile_empty" />
+
+            <TextView
+                android:id="@+id/text_tile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=""
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+        </FrameLayout>
+
+        <!-- Tile 5 -->
+        <FrameLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp">
+
+            <View
+                android:id="@+id/tile_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/tile_empty" />
+
+            <TextView
+                android:id="@+id/text_tile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=""
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
