@@ -48,18 +48,77 @@ An Android word-guessing game inspired by Wordle, featuring multiple game modes 
 - **WordleRowAdapter** - Custom adapter with flip animations
 - **Theme System** - Dynamic theme switching with multiple color schemes
 
-## Getting Started
+## Installation & Setup
 
 ### Prerequisites
-- Android Studio Arctic Fox or later
-- Android SDK 21 or higher
-- Java 8 or higher
+- **Java Development Kit (JDK)**: Version 8 or higher (Java 11 recommended)
+- **Android Studio**: Arctic Fox or newer
+- **Android SDK**: 
+  - Minimum API Level 21 (Android 5.0 Lollipop)
+  - Target/Compile API Level 32 (Android 12L)
+- **Gradle**: Version 7.3.3+ (bundled with Android Studio)
 
-### Installation
-1. Clone the repository
-2. Open the project in Android Studio
-3. Sync Gradle files
-4. Run on an emulator or physical device
+### Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/wordlegame.git
+
+# Navigate to project directory
+cd wordlegame
+
+# Open in Android Studio
+# File → Open → Select the 'wordlegame' folder
+
+# Sync Gradle files
+# Android Studio will prompt you to sync - click "Sync Now"
+# Or manually: File → Sync Project with Gradle Files
+
+# Build the project
+./gradlew build
+
+# Run on emulator or connected device
+# Click the "Run" button (▶️) in Android Studio
+# Or use: ./gradlew installDebug
+```
+
+### First Launch Notes
+- The application will automatically create local database and SharedPreferences storage on first launch
+- Word lists are embedded in the app resources (no download needed)
+- Internet permission is required for Dictionary API word validation
+- **Permissions**: The app requires INTERNET (for word validation via Dictionary API)
+
+### Device Requirements
+- **Minimum**: Android 5.0 (API 21) or higher
+- **Tested on**: Android 12L (API 32)
+- **Orientation**: Portrait mode recommended
+- **Storage**: ~10-15 MB
+
+### Troubleshooting
+
+**Gradle Sync Issues:**
+```bash
+# Clean and rebuild
+./gradlew clean
+./gradlew build
+```
+
+**SDK Path Issues:**
+- Create a `local.properties` file in the project root
+- Add: `sdk.dir=/path/to/your/Android/Sdk`
+- Example (Windows): `sdk.dir=C\:\\Users\\YourName\\AppData\\Local\\Android\\Sdk`
+- Example (Mac/Linux): `sdk.dir=/Users/YourName/Library/Android/sdk`
+
+**Build Errors:**
+- Ensure JDK 8+ is set in Android Studio (File → Project Structure → SDK Location)
+- Install Android SDK API Level 32 if missing (Tools → SDK Manager)
+- Update Android SDK tools if prompted
+- Invalidate caches: File → Invalidate Caches / Restart
+
+**API Connection Issues:**
+- The app uses Dictionary API for word validation
+- Ensure device has internet connectivity
+- API calls are cached locally for 7 days
+- Offline mode uses pre-loaded word lists
 
 ## Game Logic
 
