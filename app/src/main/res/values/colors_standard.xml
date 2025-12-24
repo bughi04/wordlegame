@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default Android Template Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Basic App Colors -->
+    <color name="colorPrimary">@color/purple_500</color>
+    <color name="colorPrimaryDark">@color/purple_700</color>
+    <color name="colorAccent">@color/teal_200</color>
+
+    <!-- Tile Colors -->
+    <color name="tile_border">#CCCCCC</color>
+    <color name="tile_filled">#EEEEEE</color>
+    <color name="tile_correct">#6AAA64</color>
+    <color name="tile_partial">#C9B458</color>
+    <color name="tile_wrong">#787C7E</color>
+
+    <!-- Keyboard Colors -->
+    <color name="key_unused">#D3D6DA</color>
+    <color name="key_correct">#6AAA64</color>
+    <color name="key_partial">#C9B458</color>
+    <color name="key_wrong">#787C7E</color>
+    <color name="key_text_unused">#000000</color>
+    <color name="key_text_used">#FFFFFF</color>
+
+    <!-- Game Result Colors -->
+    <color name="win_color">#6AAA64</color>
+    <color name="loss_color">#F14668</color>
+
+    <!-- Theme Colors - Light -->
+    <color name="light_background">#FFFFFF</color>
+    <color name="light_text">#000000</color>
+
+    <!-- Theme Colors - Dark -->
+    <color name="dark_background">#121213</color>
+    <color name="dark_text">#FFFFFF</color>
+    <color name="dark_tile_border">#3A3A3C</color>
+
+    <!-- Theme Colors - Colorful -->
+    <color name="colorful_background">#E8F5E9</color>
+    <color name="colorful_primary">#4CAF50</color>
+    <color name="colorful_accent">#FF9800</color>
+
+    <!-- Theme Colors - High Contrast -->
+    <color name="high_contrast_background">#000000</color>
+    <color name="high_contrast_text">#FFFFFF</color>
+    <color name="high_contrast_correct">#F5F500</color>
+    <color name="high_contrast_partial">#F5A623</color>
+    <color name="high_contrast_wrong">#FFFFFF</color>
+</resources>
