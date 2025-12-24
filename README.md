@@ -1,9 +1,15 @@
 # WordleGame
-
-> **Note**: This project was designed and implemented by me, with selective use of AI tools for research, refactoring, and productivity - similar to modern IDE assistance.
+![Java](https://img.shields.io/badge/Java-8-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Android](https://img.shields.io/badge/Android-12L-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Min SDK](https://img.shields.io/badge/Min%20SDK-21-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Target SDK](https://img.shields.io/badge/Target%20SDK-32-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-7.3+-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![Retrofit](https://img.shields.io/badge/Retrofit-2.9.0-48B983?style=for-the-badge&logo=square&logoColor=white)
+![Material Design](https://img.shields.io/badge/Material%20Design-1.5.0-757575?style=for-the-badge&logo=material-design&logoColor=white)
 
 An Android word-guessing game inspired by Wordle, featuring multiple game modes and a polished user interface.
 
+> **Note**: This project was designed and implemented by me, with selective use of AI tools for research, refactoring, and productivity - similar to modern IDE assistance.
 ## Features
 
 ### Game Modes
