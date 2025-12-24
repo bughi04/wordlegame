@@ -61,7 +61,7 @@ An Android word-guessing game inspired by Wordle, featuring multiple game modes 
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/wordlegame.git
+git clone https://github.com/bughi04/wordlegame.git
 
 # Navigate to project directory
 cd wordlegame
