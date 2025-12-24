@@ -42,27 +42,6 @@ An Android word-guessing game inspired by Wordle, featuring multiple game modes 
 - **WordleRowAdapter** - Custom adapter with flip animations
 - **Theme System** - Dynamic theme switching with multiple color schemes
 
-## Project Structure
-
-```
-app/src/main/java/com/example/wordlegame/
-├── Activities (Main, Game, Settings, History)
-├── Fragments (Normal, Timed, Evil, Emoji game modes)
-├── Adapters (Board, Keyboard, History)
-├── Data (Repository, Database, Models)
-├── Utils (WordGenerator, DictionaryManager, PreferenceManager)
-└── Resources (Layouts, Themes, Word lists)
-```
-
-## Screenshots
-
-The app features:
-- Clean, intuitive main menu
-- Interactive game board with real-time feedback
-- On-screen keyboard with color-coded letter states
-- Game result dialogs with statistics
-- Comprehensive game history viewer
-
 ## Getting Started
 
 ### Prerequisites
